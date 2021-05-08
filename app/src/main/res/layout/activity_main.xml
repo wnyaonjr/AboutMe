@@ -20,12 +20,13 @@
         android:textAlignment="center" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/nickname_edit"
         style="@style/NameStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/what_is_your_nickname"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
 
     <Button
         android:id="@+id/done_button"
@@ -42,9 +43,9 @@
         style="@style/NameStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Test"
         android:textAlignment="center"
         android:visibility="gone"
+        tools:text="Test"
         tools:visibility="visible" />
 
     <ImageView
